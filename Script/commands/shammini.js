@@ -20,7 +20,7 @@ function deleteAfterTimeout(filePath, timeout = 5000) {
 
 module.exports = {
   config: {
-    name: "music",
+    name: "Shammini",
     version: "2.0.2",
     hasPermssion: 0,
     credits: "RAHAT",
