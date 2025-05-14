@@ -27,8 +27,8 @@ module.exports.run = async function({ api, event, args, Users, Threads, Currenci
         var arraytag = [];
                 arraytag.push({id: event.senderID, tag: namee});
                 arraytag.push({id: id, tag: name});
-        // api.changeNickname(`😘👉🔐🔐 ${name} Property 🔐🔐👈😘`, event.threadID, event.senderID);
-        // api.changeNickname(`😘👉🔐🔐 ${namee} Property🔐🔐👈😘`, event.threadID, id);
+        // api.changeNickname(`${name}'jan`, event.threadID, event.senderID);
+        // api.changeNickname(`${namee}'jan`, event.threadID, id);
         var sex = await data[id].gender;
         var gender = sex == 2 ? "Male🧑" : sex == 1 ? "Female👩‍🦰" : "Trần Đức Bo";
         // Currencies.setData(event.senderID, options = {money: money - 500})
