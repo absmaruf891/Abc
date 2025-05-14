@@ -7,7 +7,7 @@ module.exports.config = {
     name: "info",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "maruf",
+    credits: "ullash",
     description: "Show Owner Info",
     commandCategory: "info",
     usages: "",
@@ -24,15 +24,15 @@ module.exports.run = async function({ api, event }) {
 ┣━━━━━━━━━━━━━━━━━━━━━┫
 ┃ 👤 𝐍𝐚𝐦𝐞      : m፝֟ꫝƦᏌꘘツ모
 ┃ 🚹 𝐆𝐞𝐧𝐝𝐞𝐫    : 𝐌𝐚𝐥𝐞
-┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧  : Single pro max
-┃ 🎂 𝐀𝐠𝐞       : 17± ツ
-┃ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧  : Islam
+┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧  : Don't know
+┃ 🎂 𝐀𝐠𝐞       : 17±
+┃ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧  : 𝐈𝐬𝐥𝐚𝐦
 ┃ 🏫 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : Inter first year
 ┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬  : Chattogram,Bangladesh 
 ┣━━━━━━━━━━━━━━━━━━━━━┫
 ┃ 🎭 𝐓𝐢𝐤𝐭𝐨𝐤  : @absmaruf12
-┃ 📢 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : Vala manush use kori nah.
-┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : A B S Maruf Scearch kor ja
+┃ 📢 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : Vala manush use kori nah.🌚
+┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : https://www.facebook.com/profile.php?id=61568301181050
 ┣━━━━━━━━━━━━━━━━━━━━━┫
 ┃ 🕒 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐢𝐦𝐞:  ${time}
 ┗━━━━━━━━━━━━━━━━━━━━━┛
@@ -40,7 +40,7 @@ module.exports.run = async function({ api, event }) {
         attachment: fs.createReadStream(__dirname + "/cache/1.png")
     }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"));
   
-    return request(encodeURI(`"https://i.imgur.com/xLYfV0u.jpeg", `))
+    return request(encodeURI(`https://i.imgur.com/RsAN0DF.jpeg`))
         .pipe(fs.createWriteStream(__dirname + '/cache/1.png'))
         .on('close', () => callback());
 };
